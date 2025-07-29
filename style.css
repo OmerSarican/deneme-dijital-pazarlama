@@ -10,7 +10,10 @@ header {
   color: white;
   padding: 1rem;
   text-align: center;
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self'; style-src 'self'; script-src 'self';">
+
 }
+
 nav ul {
   list-style: none;
   padding: 0;
